@@ -3,6 +3,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
   height: 620px;
+  width : 970px ;
 }
 
 #grid > div {
