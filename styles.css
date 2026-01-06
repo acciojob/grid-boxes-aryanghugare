@@ -1,16 +1,16 @@
-/*  your css code here. If applicable */
-#grid>div {
-	background-color : green ;
-	border : 1px solid white ;
-}
-
-
-
 #grid {
-	display : grid ;
-	grid-template-columns : 1fr 1fr 1fr 1fr ;
-	grid-template-rows : repeat(5,1fr)
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: 620px;
 }
+
+#grid > div {
+  background-color: green;
+  border: 1px solid white;
+}
+
+
 
 #one {
   grid-column: 1 / 5;
